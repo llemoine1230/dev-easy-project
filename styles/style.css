@@ -1,1 +1,24 @@
-dgdgs
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+}
+
+.card-container {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr); /* 2 columns */
+      gap: 15px; /* space between cards */
+}
+
+.card {
+      width: 95%;
+      background-color: pink; 
+      border: solid; 
+      padding: 5px; 
+}
+
+body {
+  margin: 25px;
+}
