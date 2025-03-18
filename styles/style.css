@@ -7,8 +7,14 @@ footer {
   width: 100%;
   text-align: center;
 }
+
 ul {
   list-style-type: none;
+}
+
+h2 {
+  font-family: "Bebas Neue", sans-serif;
+
 }
 
 .navbar {
@@ -120,8 +126,13 @@ body {
   height: 20px;
   object-fit: contain;
 }
+
 button {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+#likedContainer, #allFacts {
+  border: dotted; 
 }
