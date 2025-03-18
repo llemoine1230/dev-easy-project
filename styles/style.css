@@ -33,7 +33,7 @@ h2 {
   text-align: center;
 }
 
-.card-container, #likedContainer {
+.card-container {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 15px; 
