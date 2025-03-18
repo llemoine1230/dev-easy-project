@@ -9,12 +9,18 @@ footer {
 }
 
 .navbar {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  position: fixed;
+  width: 100%;
+  /* display: flex; */
+  /* align-items: center;
+  justify-content: center; */
+  left: 0;
+  text-align: center;
 }
+
 #flipAll{
   background-color: pink;
+  margin-top: 40px;
 }
 
 .card-container {
