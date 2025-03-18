@@ -1,5 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
 
+body {
+  margin: 25px;
+}
+
 footer {
   position: fixed;
   left: 0;
@@ -8,13 +12,18 @@ footer {
   text-align: center;
 }
 
+button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 ul {
   list-style-type: none;
 }
 
 h2 {
   font-family: "Bebas Neue", sans-serif;
-
 }
 
 .navbar {
@@ -23,13 +32,8 @@ h2 {
   left: 0;
   text-align: center;
 }
-#flipAll {
-  background-color: #9999ff;
-  margin-top : 50px;
-}
 
-
-.card-container {
+.card-container, #likedContainer {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 15px; 
@@ -85,10 +89,6 @@ h2 {
   border: solid;
 }
 
-body {
-  margin: 25px;
-}
-
 .search {
   display: flex;
   align-items: center;
@@ -127,12 +127,12 @@ body {
   object-fit: contain;
 }
 
-button {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
 #likedContainer, #allFacts {
   border: dotted; 
 }
+
+#flipAll {
+  background-color: #9999ff;
+  margin-top : 50px;
+}
+
